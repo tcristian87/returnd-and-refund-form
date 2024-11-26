@@ -1,0 +1,106 @@
+.refund-form-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: var(--primary-neutral-200);
+}
+.refund-form-container.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.refund-return-details-container{
+    width: 100%;
+    max-width: 600px;
+    line-height: 160%!important;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    align-content: center;
+}
+.refund-form-container form a{
+    text-decoration: none;
+}
+.terms-and-conditions-form label a{
+    text-decoration: underline;
+}
+.refund-form-container form{
+    color: black;
+    max-width: 600px;
+    width: 100%;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.refund-form-container form input[type="checkbox"] {
+   width: 16px;
+   height: 16px;
+   margin-right: 10px;
+}
+.refund-form-container form input[type="submit"]{
+    cursor: default;
+    padding: 16px 32px;
+  color: #fff;
+  background: #6A6E5C;
+}
+.refund-form-container form textarea,
+.refund-form-container form input{
+   width: 100%;
+   height: 46px;
+   padding: 16px 32px 16px 20px;
+   border: 1px solid #EAEAEA;
+  background: #FFF;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+    margin: 10px 0px;
+}
+.refund-form-container form textarea{
+    height: auto;
+}
+.terms-and-conditions-form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.terms-and-conditions-form label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+#return-submit-button{
+    max-width: 200px;
+}
+
+.success-message {
+    color: var(--primary-green-300);
+    margin-top: 10px;
+    display: block;
+}
+.refund-return-details-container li{
+    list-style-type: auto;
+}
+@media (max-width: 576px) { 
+.refund-form-section{
+padding: 25px;
+}
+}
